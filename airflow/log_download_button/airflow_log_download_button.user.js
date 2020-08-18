@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Airflow log download
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.0
 // @description  Add a download button in the airflow logs page to make debugging easier
 // @author       Abhishek Kedia <kedia.abhishek10@gmail.com>
 // @match        http://airflow.blueshift.vpc/admin/airflow/log*
