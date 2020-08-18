@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Add a download button in the airflow logs page to make debugging easier
-// @author       You
+// @author       Abhishek Kedia <kedia.abhishek10@gmail.com>
 // @match        http://airflow.blueshift.vpc/admin/airflow/log*
 // @grant        none
 // @run-at       document-end
@@ -12,8 +12,8 @@
 (function() {
     'use strict';
   
-    // Goal: to add a log download button in the airflow logs page
-    // This needs a bit of css to look beautiful
+    // JS to add a log download button in the airflow logs page
+    // Corresponding CSS: https://github.com/coderkd10/userscripts/raw/master/airflow/log_download_button/airflow_log_download_button.user.css
   
     function humanFileSize(bytes, si=false, dp=1) {
       const thresh = si ? 1000 : 1024;
