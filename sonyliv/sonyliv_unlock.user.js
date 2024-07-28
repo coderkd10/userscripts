@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Sonyliv
+// @name         Sonyliv Unlocked
 // @version      2024-07-27
 // @description  Watch Sonyliv videos even when logged out
 // @author       You
