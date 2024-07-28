@@ -498,6 +498,12 @@
                 //
                 // I can also try embedding Sonyliv's own player instead of Clappr
                 // player url: https://player.sonyliv.com/assets/web/100/2.21.7/v2/sp-player-web.js?bust=3.5.76
+                //
+                // I can try playing mpds using VideoJS / video.js instead of Clappr
+                // It another FOSS player similar to clappr and also apparantly supports Dash (mpd)
+                // https://videojs.com/
+                // https://github.com/videojs/video.js
+                // https://videojs.github.io/videojs-contrib-dash/
             })(),
 
 
